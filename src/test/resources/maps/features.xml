@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Features</title>
+    <totalResults xmlns="http://a9.com/-/spec/opensearch/1.1/">3</totalResults>
+    <startIndex xmlns="http://a9.com/-/spec/opensearch/1.1/">0</startIndex>
+    <itemsPerPage xmlns="http://a9.com/-/spec/opensearch/1.1/">3</itemsPerPage>
+    <entry>
+        <title>Feature #1</title>        
+        <id>1</id>
+        <georss:box xmlns:georss="http://www.georss.org/georss">-95.0,38.5 -77.0,40.0</georss:box>
+    </entry>
+    <entry>
+        <title>Feature #2</title>        
+        <id>2</id>
+        <georss:point xmlns:georss="http://www.georss.org/georss">-95.0,38.5</georss:point>
+    </entry>
+    <entry>
+        <title>Feature #3</title>        
+        <id>3</id>
+        <georss:point xmlns:georss="http://www.georss.org/georss">-95.0,38.5</georss:point>
+    </entry>
+</feed>

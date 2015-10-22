@@ -1,0 +1,62 @@
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document>   
+  <name>ExtendedData+SchemaData</name>   
+  <open>1</open>
+
+  <!-- Declare the type "TrailHeadType" with 3 fields -->
+  <Schema name="TrailHeadType" id="TrailHeadTypeId">     
+    <SimpleField type="string" name="TrailHeadName">       
+      <displayName><![CDATA[<b>Trail Head Name</b>]]></displayName>     
+    </SimpleField>     
+    <SimpleField type="double" name="TrailLength">       
+      <displayName><![CDATA[<i>Length in miles</i>]]></displayName>     
+    </SimpleField>     
+    <SimpleField type="int" name="ElevationGain">       
+      <displayName><![CDATA[<i>Change in altitude</i>]]></displayName>     
+    </SimpleField>   
+  </Schema>
+  
+  <Schema name="action" id="actionTypeId">
+        <SimpleField type="string" name="actionName">
+            <displayName>Action Name</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionID">
+            <displayName>Action ID</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="identifier">
+            <displayName>Identifier</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionDesciption">
+            <displayName>Description</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="sender">
+            <displayName>Sender</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionCategory">
+            <displayName>Category</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="benefittingJurisdiction">
+            <displayName>Benefitting Jurisdiction</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="performingOrganization">
+            <displayName>Performing Organization</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionStatus">
+            <displayName>Status</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionDateTime">
+            <displayName>Needed Date/Time</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="actionUpdateTime">
+            <displayName>Last Status change Date/Time</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="address">
+            <displayName>address</displayName>
+        </SimpleField>
+        <SimpleField type="string" name="coordinates">
+            <displayName>Coordinates(latitude,longitude)</displayName>
+        </SimpleField>
+    </Schema>
+   
+</Document> 
+</kml>

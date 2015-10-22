@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewContext xmlns="http://www.opengis.net/context"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.0.0/context.xsd"
+	id="DefaultWebMapContext" version="1.0.0">
+	<General>
+		<Window height="572" width="959" />
+		<BoundingBox SRS="EPSG:4326" maxx="-77.22391104020979"
+			maxy="39.34873" minx="-78.06747895979022" miny="38.84558" />
+		<Title>Default Map</Title>
+        <Abstract>
+        This is the view context document which describes the default map of the alertSmarts workspace
+        </Abstract>                
+	</General>
+	<LayerList>
+		<Layer queryable="false" hidden="false">
+			<Server service="WMS" version="1.1.1" title="World Map">
+				<OnlineResource xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap" />
+			</Server>
+			<Name>Bathymetry</Name>
+			<Title>Bathymetry</Title>
+			<SRS>EPSG:4326</SRS>
+		</Layer>
+		<Layer queryable="1" hidden="0">
+			<Server service="WMS" version="1.1.1" title="World Map">
+				<OnlineResource xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap" />
+			</Server>
+			<Name>Topography</Name>
+			<Title>Topography</Title>
+			<SRS>EPSG:4326</SRS>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+            <Server service="WMS" version="1.1.1" title="USGS">
+                <OnlineResource xlink:href="http://gisdata.usgs.gov/wmsconnector/com.esri.wms.Esrimap/USGS_EDC_National_Atlas" />
+            </Server>
+            <Name>ATLAS_STATES</Name>
+            <Title>States</Title>
+            <SRS>EPSG:4326</SRS>            
+        </Layer>
+        <Layer queryable="0" hidden="0">
+            <Server service="WMS" version="1.1.1" title="USGS">
+                <OnlineResource xlink:href="http://gisdata.usgs.gov/wmsconnector/com.esri.wms.Esrimap/USGS_EDC_National_Atlas" />
+            </Server>
+            <Name>ATLAS_COUNTIES_2001</Name>
+            <Title>Counties (2001)</Title>
+            <SRS>EPSG:4326</SRS>            
+        </Layer>
+        <Layer queryable="0" hidden="0">
+            <Server service="WMS" version="1.1.1" title="USGS">
+                <OnlineResource xlink:href="http://gisdata.usgs.gov/wmsconnector/com.esri.wms.Esrimap/USGS_EDC_National_Atlas" />
+            </Server>
+            <Name>ATLAS_STATES_LABELS</Name>
+            <Title>States</Title>
+            <SRS>EPSG:4326</SRS>            
+        </Layer>
+        <Layer queryable="0" hidden="0">
+            <Server service="WMS" version="1.1.1" title="USGS">
+                <OnlineResource xlink:href="http://gisdata.usgs.gov/wmsconnector/com.esri.wms.Esrimap/USGS_EDC_National_Atlas" />
+            </Server>
+            <Name>ATLAS_COUNTIES_2001_LABELS</Name>
+            <Title>Counties (2001)</Title>
+            <SRS>EPSG:4326</SRS>            
+        </Layer>        
+	</LayerList>
+</ViewContext>

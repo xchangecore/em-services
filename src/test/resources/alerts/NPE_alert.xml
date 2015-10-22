@@ -1,0 +1,53 @@
+<urn:alert xmlns:ns2="http://gov.fema.dmopen.services/caprequest" xmlns:ns3="http://gov.fema.dmopen.services/capresponse" xmlns:ns4="http://gov.fema.dmopen.services/DMOPEN_CAPService/" xmlns:urn="urn:oasis:names:tc:emergency:cap:1.1">
+  <urn:identifier>TFCC-ALERT-dfd3f89b-cb40-4e8e-a833-ec4ff08aca42</urn:identifier>
+  <urn:sender>test@email.com</urn:sender>
+  <urn:sent>2011-08-13T15:27:33-04:00</urn:sent>
+  <urn:status>Test</urn:status>
+  <urn:msgType>Alert</urn:msgType>
+  <urn:source>DMOPEN TEST NCB</urn:source>
+  <urn:scope>Public</urn:scope>
+  <urn:restriction/>
+  <urn:addresses>999</urn:addresses>
+  <urn:code>999</urn:code>
+  <urn:note>This is a test</urn:note>
+  <urn:references>CAP-12-17-001</urn:references>
+  <urn:incidents>DMOPEN-0001</urn:incidents>
+  <urn:info>
+    <urn:language>en-us</urn:language>
+    <urn:category>Safety</urn:category>
+    <urn:event>Alert Advisory</urn:event>
+    <urn:responseType>Shelter</urn:responseType>
+    <urn:urgency>Immediate</urn:urgency>
+    <urn:severity>Extreme</urn:severity>
+    <urn:certainty>Observed</urn:certainty>
+    <urn:audience>Public</urn:audience>
+    <urn:eventCode>
+      <urn:valueName/>
+      <urn:value/>
+    </urn:eventCode>
+    <urn:effective>2011-08-13T15:27:33-04:00</urn:effective>
+    <urn:onset>2011-08-13T15:27:33-04:00</urn:onset>
+    <urn:expires>2011-08-13T15:27:33-04:00</urn:expires>
+    <urn:senderName>TFCC</urn:senderName>
+    <urn:headline>This is a test.</urn:headline>
+    <urn:description>Test</urn:description>
+    <urn:instruction>Please ignore.  This is just a test.</urn:instruction>
+    <urn:web/>
+    <urn:contact>NCB</urn:contact>
+    <urn:parameter>
+      <urn:valueName/>
+      <urn:value/>
+    </urn:parameter>
+    <urn:area>
+      <urn:areaDesc>This is a test area</urn:areaDesc>
+      <urn:polygon/>
+      <urn:circle/>
+      <urn:geocode>
+        <urn:valueName/>
+        <urn:value/>
+      </urn:geocode>
+      <urn:altitude/>
+      <urn:ceiling/>
+    </urn:area>
+  </urn:info>
+</urn:alert>

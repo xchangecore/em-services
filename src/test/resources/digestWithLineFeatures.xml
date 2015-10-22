@@ -1,0 +1,71 @@
+<ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+  <ns:Location id="Location-a16cdc91-bdd7-4af5-a454-079e234edb02">
+    <ns:Identifier ns:label="ProductID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ns:GeoLocation>
+      <ns:LineString>
+        <ns1:LineString ns1:id="MultiLineString-da2b3a6b-a91a-4121-9696-5cdce0a5d56f" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+          <ns1:pos srsDimension="2">39.073395999999995 -77.555364</ns1:pos>
+          <ns1:pos srsDimension="2">39.082437 -77.559067</ns1:pos>
+        </ns1:LineString>
+      </ns:LineString>
+    </ns:GeoLocation>
+  </ns:Location>
+  <ns:Location id="Location-09189b8a-f3e0-4166-9720-2662430a13be">
+    <ns:Identifier ns:label="ProductID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ns:GeoLocation>
+      <ns:LineString>
+        <ns1:LineString ns1:id="MultiLineString-22770dbb-1c9c-4b24-859b-ccf1a204bab7" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+          <ns1:pos srsDimension="2">38.94186 -77.542565</ns1:pos>
+          <ns1:pos srsDimension="2">38.940262 -77.54497099999999</ns1:pos>
+        </ns1:LineString>
+      </ns:LineString>
+    </ns:GeoLocation>
+  </ns:Location>
+  <ns:Location id="Location-15effe12-7d62-4d00-8627-4883841c2452">
+    <ns:Identifier ns:label="ProductID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ns:GeoLocation>
+      <ns:LineString>
+        <ns1:LineString ns1:id="MultiLineString-ca50fd31-453a-4a1f-a339-92928703fccd" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+          <ns1:pos srsDimension="2">38.94348 -77.539954</ns1:pos>
+          <ns1:pos srsDimension="2">38.942178999999996 -77.542008</ns1:pos>
+        </ns1:LineString>
+      </ns:LineString>
+    </ns:GeoLocation>
+  </ns:Location>
+  <ns:Location id="Location-25595a26-87a1-4d14-a328-1b4561c37e2f">
+    <ns:Identifier ns:label="ProductID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ns:GeoLocation>
+      <ns:LineString>
+        <ns1:LineString ns1:id="MultiLineString-dff4d76d-b9cc-4ef7-90eb-206770b969ec" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+          <ns1:pos srsDimension="2">38.942178999999996 -77.542008</ns1:pos>
+          <ns1:pos srsDimension="2">38.944559 -77.542236</ns1:pos>
+          <ns1:pos srsDimension="2">38.944491 -77.54276399999999</ns1:pos>
+          <ns1:pos srsDimension="2">38.94186 -77.542565</ns1:pos>
+        </ns1:LineString>
+      </ns:LineString>
+    </ns:GeoLocation>
+  </ns:Location>
+  <ns:Location id="Location-a562d8a1-d6dd-4205-9ea1-17216181eb57">
+    <ns:Identifier ns:label="ProductID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ns:GeoLocation>
+      <ns:LineString>
+        <ns1:LineString ns1:id="MultiLineString-72edfab1-e0aa-45b3-95b3-081ec6783d65" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+          <ns1:pos srsDimension="2">38.942178999999996 -77.542008</ns1:pos>
+          <ns1:pos srsDimension="2">38.938656 -77.541783</ns1:pos>
+          <ns1:pos srsDimension="2">38.938817 -77.542339</ns1:pos>
+          <ns1:pos srsDimension="2">38.94186 -77.542565</ns1:pos>
+        </ns1:LineString>
+      </ns:LineString>
+    </ns:GeoLocation>
+  </ns:Location>
+  <ns:Collection id="Collection-5c873a20-4d09-4878-88f8-ddce9dcb1de2">
+    <ns:Descriptor>Collection of LocationInfo of all features</ns:Descriptor>
+    <ns:Identifier ns:label="Label" ns:code="label" ns:codespace="http://uicds.us/identifier">Collection (geo)</ns:Identifier>
+    <ns:What ns:code="GroupOfLocations" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    <ns:ThingRef ref="Location-a16cdc91-bdd7-4af5-a454-079e234edb02"/>
+    <ns:ThingRef ref="Location-09189b8a-f3e0-4166-9720-2662430a13be"/>
+    <ns:ThingRef ref="Location-15effe12-7d62-4d00-8627-4883841c2452"/>
+    <ns:ThingRef ref="Location-25595a26-87a1-4d14-a328-1b4561c37e2f"/>
+    <ns:ThingRef ref="Location-a562d8a1-d6dd-4205-9ea1-17216181eb57"/>
+  </ns:Collection>
+</ns:Digest>

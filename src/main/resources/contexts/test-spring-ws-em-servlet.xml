@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <!--
+        Map Service Endpoint Mapping This is mapped separately from the rest of the services because
+        it is not using the XMLBeans marshalling endpoint adapter, but rather using DOM to represent
+        requests and responses
+    -->
+    <bean id="mapServiceEndpointMapping" class="org.springframework.ws.server.endpoint.mapping.PayloadRootQNameEndpointMapping">
+        <property name="mappings">
+            <props>
+                <prop key="{http://uicds.org/MapService/}GetMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}GetMapsRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}SubmitMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}UpdateMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}DeleteMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}GetLayerRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}GetLayersRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}SubmitMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}UpdateMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}DeleteMapRequest">mapServiceEndpoint</prop>
+                <prop key="{http://uicds.org/MapService/}SubmitShapefileRequest">mapServiceEndpoint</prop>
+            </props>
+        </property>
+        <property name="interceptors">
+            <bean class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor" />
+        </property>
+    </bean>
+    <bean id="mapServiceEndpoint" class="com.leidos.xchangecore.core.em.endpoint.MapServiceEndpoint" />
+    <bean class="org.springframework.ws.server.endpoint.adapter.PayloadEndpointAdapter" />
+
+
+
+    <!-- -->
+    <!-- XMLBEANS -->
+    <!-- -->
+    <bean id="xmlbeansMarshaller" class="org.springframework.oxm.xmlbeans.XmlBeansMarshaller" />
+    <bean class="org.springframework.ws.server.endpoint.adapter.GenericMarshallingMethodEndpointAdapter">
+        <property name="marshaller" ref="xmlbeansMarshaller" />
+        <property name="unmarshaller" ref="xmlbeansMarshaller" />
+    </bean>
+
+    <!-- -->
+    <!-- SCAN THE CLASSPATH FOR ENDPOIINTS -->
+    <!-- -->
+    <context:component-scan base-package="com.leidos.xchangecore.core.em.endpoint" />
+
+    <!-- -->
+    <!-- ENDPOINT MAPPING -->
+    <!-- -->
+    <bean
+        class="org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping">
+        <property name="interceptors">
+            <bean class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor" />
+        </property>
+    </bean>
+
+</beans>
+
+    

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+    <ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0">
+        <ulex:DataItemID>MapViewContext-cef3ee7f-4859-4dd8-bf1e-5ab78dcc21b8</ulex:DataItemID>
+        <ulex:DataItemReferenceID>MapViewContext-cef3ee7f-4859-4dd8-bf1e-5ab78dcc21b8</ulex:DataItemReferenceID>
+        <ns:DataItemStatus ns:label="UICDS Work Product Status" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:code="Active" xmlns:ns="http://ucore.gov/ucore/2.0"/>
+        <ulex:DataOwnerMetadata>
+            <ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0">
+                <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+                    <ns1:name>ucids.org</ns1:name>
+                </ns1:Organization>
+            </ns:DataOwnerIdentifier>
+            <ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0">
+                <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+                    <ns1:name>http://uicds.us</ns1:name>
+                </ns1:Organization>
+            </ns:DataOwnerContact>
+            <ulex:DataOwnerMetadataDomainAttribute>
+                <ulex:DomainName>UICDS EM Domain</ulex:DomainName>
+            </ulex:DataOwnerMetadataDomainAttribute>
+        </ulex:DataOwnerMetadata>
+        <ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/>
+        <str:WorkProductIdentification>
+            <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">MapViewContext-cef3ee7f-4859-4dd8-bf1e-5ab78dcc21b8</base:Identifier>
+            <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+            <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">MapViewContext</base:Type>
+            <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jun 21 13:56:46 EDT 2011:1:1:760829664</base:Checksum>
+            <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+        <str:WorkProductProperties>
+            <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2011-06-21T13:56:46.488-04:00</base:Created>
+            <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@santhosha-pc</base:CreatedBy>
+            <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2011-06-21T13:56:46.488-04:00</base:LastUpdated>
+            <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@santhosha-pc</base:LastUpdatedBy>
+            <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Kilobytes>
+            <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+            <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+                <base:Identifier>IG-e88ff8bc-bfaa-4826-a394-cc5bc1497bc4</base:Identifier>
+            </base:AssociatedGroups>
+        </str:WorkProductProperties>
+    </ulex:PackageMetadata>
+    <ulex:StructuredPayload xmlns:ulex="ulex:message:structure:1.0">
+        <ulex:StructuredPayloadMetadata>
+            <ulex:CommunityURI>MapViewContext</ulex:CommunityURI>
+            <ulex:CommunityVersion/>
+        </ulex:StructuredPayloadMetadata>
+        <wmc:ViewContext id="MapViewContext-cef3ee7f-4859-4dd8-bf1e-5ab78dcc21b8" version="1.1.0" xmlns:wmc="http://www.opengis.net/context" xmlns="http://www.saic.com/precis/2009/06/structures" xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:ns="http://ucore.gov/ucore/2.0" xmlns:base="http://www.saic.com/precis/2009/06/base">
+            <wmc:General>
+                <wmc:Window height="500" width="600"/>
+                <wmc:BoundingBox SRS="EPSG:4326" maxx="39.00000138888889" maxy="-77.1" minx="38.8" miny="-77.3"/>
+                <wmc:Title>Default Map for Incident 'IG-e88ff8bc-bfaa-4826-a394-cc5bc1497bc4'</wmc:Title>
+                <wmc:KeywordList>
+                    <wmc:Keyword>Default Map</wmc:Keyword>
+                    <wmc:Keyword>IG-e88ff8bc-bfaa-4826-a394-cc5bc1497bc4</wmc:Keyword>
+                    <wmc:Keyword>UICDS</wmc:Keyword>
+                </wmc:KeywordList>
+                <wmc:Abstract>Default map for incident with id 'IG-e88ff8bc-bfaa-4826-a394-cc5bc1497bc4'</wmc:Abstract>
+            </wmc:General>
+            <wmc:LayerList>
+                <wmc:Layer hidden="false" queryable="false">
+                    <wmc:Server service="OGC:WMS" title="Metacarta" version="1.1.0">
+                        <wmc:OnlineResource xlink:href="http://labs.metacarta.com/wms/vmap0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                    </wmc:Server>
+                    <wmc:Name>basic</wmc:Name>
+                    <wmc:Title>Base Map</wmc:Title>
+                    <wmc:SRS>EPSG:4326</wmc:SRS>
+                </wmc:Layer>
+                <wmc:Layer hidden="false" queryable="false">
+                    <wmc:Server service="OGC:WMS" title="UICDS Core Map Service" version="1.1.0">
+                        <wmc:OnlineResource xlink:href="https://santhosha-pc/uicds/api/IG-e88ff8bc-bfaa-4826-a394-cc5bc1497bc4/features?" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                    </wmc:Server>
+                    <wmc:Title>Incident Features</wmc:Title>
+                    <wmc:SRS>EPSG:4326</wmc:SRS>
+                </wmc:Layer>
+            </wmc:LayerList>
+        </wmc:ViewContext>
+    </ulex:StructuredPayload>
+</str:WorkProduct>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+  <env:Body>
+    <map:DeleteMapRequest xmlns:map="http://uicds.org/MapService">
+        <map:incidentId>test</map:incidentId>
+        <map:mapId>test</map:mapId>
+    </map:DeleteMapRequest>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,14 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence persistence_1_0.xsd" version="1.0">
+    <persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
+        <class>com.leidos.xchangecore.core.em.model.OrganizationPositionType</class>
+        <class>com.leidos.xchangecore.core.em.model.OrganizationElement</class>
+        <class>com.leidos.xchangecore.core.em.model.IncidentCommandStructure</class>
+        <class>com.leidos.xchangecore.core.em.model.Incident</class>
+        <class>com.leidos.xchangecore.core.em.model.LEITSCIncident</class>
+        <properties>
+            <property name="hibernate.search.default.indexBase" value="${my.hibernate.search.default.indexBase}" />
+            <property name="hibernate.search.default.directory_provider" value="org.hibernate.search.store.FSDirectoryProvider" />
+        </properties>
+    </persistence-unit>
+</persistence>

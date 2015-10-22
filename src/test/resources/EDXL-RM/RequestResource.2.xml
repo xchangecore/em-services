@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rmsg:RequestResource xmlns:ct="urn:oasisRequestResource.1:names:tc:ciq:ct:3" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:gml="http://www.opengis.net/gml" xmlns:rm="urn:oasis:names:tc:emergency:EDXL:RM:1.0" xmlns:rmsg="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg" xmlns:smil20="http://www.w3.org/2001/SMIL20/" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:xal="urn:oasis:names:tc:ciq:xal:3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xlink1="http://www.w3.org/1999/xlink1" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg external/edxl-rm/1.0/EDXL-RMRequestResource.xsd ">
+	<rmsg:MessageID>RequestResource.2</rmsg:MessageID>
+	<rmsg:SentDateTime>2009-06-09T13:00:00</rmsg:SentDateTime>
+	<rmsg:MessageContentType>RequestResource</rmsg:MessageContentType>
+	<rmsg:OriginatingMessageID>RequestResource.2</rmsg:OriginatingMessageID>
+	<rmsg:IncidentInformation>
+		<rm:IncidentID>uicds-incident-id</rm:IncidentID>
+	</rmsg:IncidentInformation>
+	<rmsg:ContactInformation>
+		<rm:ContactDescription>Arlington Fire Station</rm:ContactDescription>
+		<rm:ContactRole>Requester</rm:ContactRole>
+		<rm:ContactLocation>
+			<rm:LocationDescription>Arlington</rm:LocationDescription>
+			<rm:TargetArea>
+				<gml:Point>
+					<gml:pos>38.866014 -77.193162</gml:pos>
+				</gml:Point>
+			</rm:TargetArea>
+		</rm:ContactLocation>
+	</rmsg:ContactInformation>
+	<rmsg:ResourceInformation>
+		<rmsg:ResourceInfoElementID>ResourceInfoElementID.1</rmsg:ResourceInfoElementID>
+		<rmsg:Resource>
+			<rmsg:TypeStructure>
+				<rm:ValueListURN>http://nimsonline.org/2.0</rm:ValueListURN>
+				<rm:Value>NIMS Typing Version X</rm:Value>
+			</rmsg:TypeStructure>
+			<rmsg:TypeInfo>
+				<Resource>Track Dozer</Resource>
+				<Category>Public Works and Engineering (ESF #3)"</Category>
+				<Kind>Equipment</Kind>
+				<MinimumCapabilities>Type I</MinimumCapabilities>
+			</rmsg:TypeInfo>
+		</rmsg:Resource>
+		<rmsg:AssignmentInformation>
+			<rmsg:Quantity>
+				<rm:QuantityText>4</rm:QuantityText>
+			</rmsg:Quantity>
+		</rmsg:AssignmentInformation>
+		<rmsg:ScheduleInformation>
+			<rmsg:ScheduleType>RequestedArrival</rmsg:ScheduleType>
+			<rmsg:Location>
+				<rm:LocationDescription>Arlington Waste Facility</rm:LocationDescription>
+				<rm:TargetArea>
+					<gml:Point>
+						<gml:pos>38.801168 -77.127685</gml:pos>
+					</gml:Point>
+				</rm:TargetArea>
+			</rmsg:Location>
+		</rmsg:ScheduleInformation>
+	</rmsg:ResourceInformation>
+</rmsg:RequestResource>

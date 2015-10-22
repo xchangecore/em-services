@@ -1,0 +1,70 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.leidos.xchangecore.core</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>em-services</artifactId>
+    <packaging>jar</packaging>
+    <name>xChangeCore's em-services</name>
+    <version>${em-services.version}</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.usersmarts.core</groupId>
+            <artifactId>core-geo</artifactId>
+            <version>${gx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.usersmarts.cx</groupId>
+            <artifactId>cx-pub</artifactId>
+            <version>${gx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.usersmarts.cx</groupId>
+            <artifactId>com.usersmarts.cx.hbm</artifactId>
+            <version>${gx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.leidos.xchangecore.core</groupId>
+            <artifactId>infra-services</artifactId>
+            <version>${infra-services.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.leidos.xchangecore.core</groupId>
+            <artifactId>xmlbeans-infrastructure</artifactId>
+            <version>${xmlbeans-infrastructure.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.leidos.xchangecore.core</groupId>
+            <artifactId>xmlbeans-edxl_rm</artifactId>
+            <version>${xmlbeans-edxl_rm.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.leidos.xchangecore.core</groupId>
+            <artifactId>xmlbeans-em</artifactId>
+            <version>${xmlbeans-em.version}</version>
+        </dependency>
+
+        <!--
+            <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-ws-support</artifactId>
+            <version>${spring-ws.version}</version>
+            </dependency>
+        -->
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+    </dependencies>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+    <env:Body>
+        <map:SubmitLayerRequest xmlns:map="http://uicds.org/MapService">
+            <map:IncidentId>incidentId</map:IncidentId>
+            <context:Layer xmlns:context="http://www.opengis.net/context" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.0.0/context.xsd"
+                queryable="1" hidden="0" proxied="0" opacity="1.0" viewRefreshMode="never"
+                viewRefreshTime="1">
+                <context:Server service="WMS" version="1.1.1" title="World Map">
+                    <context:OnlineResource type="simple"
+                        xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap" />
+                </context:Server>
+                <context:Name>Topography</context:Name>
+                <context:Title>Topography</context:Title>
+                <context:SRS>EPSG:4326</context:SRS>
+            </context:Layer>
+        </map:SubmitLayerRequest>
+    </env:Body>
+</env:Envelope>

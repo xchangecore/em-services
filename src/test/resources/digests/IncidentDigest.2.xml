@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns:Event id="Event-39c99d9c-e163-456c-8a17-79d19c1479cb">
+          <ns:Descriptor>Incident used in CreateIncident Test</ns:Descriptor>
+          <ns:Identifier ns:code="ActivityName" ns:codespace="http://niem.gov/niem/niem-core/2.0" ns:label="ID">Circle Incident</ns:Identifier>
+          <ns:What ns:code="CBRNE" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ns:Event>
+        <ns:Location id="Location-1846f179-136e-45cb-8a60-48dd005fce1d">
+          <ns:GeoLocation>
+            <ns:CircleByCenterPoint>
+              <ns1:CircleByCenterPoint numArc="1" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                <ns1:pos srsName="EPSG:4326">38.2972 -76.7028</ns1:pos>
+                <ns1:radius uom="SMI">4.5</ns1:radius>
+              </ns1:CircleByCenterPoint>
+            </ns:CircleByCenterPoint>
+          </ns:GeoLocation>
+        </ns:Location>
+        <ns:OccursAt id="OccursAt-a4a1c5d5-1069-44d9-82bd-3e379d2204dc">
+          <ns:Time>
+            <ns:TimeInstant>
+              <ns:Value>2009-10-14-04:00</ns:Value>
+            </ns:TimeInstant>
+          </ns:Time>
+          <ns:EventRef ref="Event-39c99d9c-e163-456c-8a17-79d19c1479cb"/>
+          <ns:LocationRef ref="Location-1846f179-136e-45cb-8a60-48dd005fce1d"/>
+        </ns:OccursAt>
+      </ns:Digest>

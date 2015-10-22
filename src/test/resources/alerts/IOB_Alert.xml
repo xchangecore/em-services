@@ -1,0 +1,58 @@
+<urn:alert xmlns:ns2="http://gov.fema.dmopen.services/caprequest" xmlns:ns3="http://gov.fema.dmopen.services/capresponse" xmlns:ns4="http://gov.fema.dmopen.services/DMOPEN_CAPService/" xmlns:urn="urn:oasis:names:tc:emergency:cap:1.1">
+  <urn:identifier>cap_041_20117894646</urn:identifier>
+  <urn:sender>gham@grandpaham.com</urn:sender>
+  <urn:sent>2011-08-08T09:46:46.000-04:00</urn:sent>
+  <urn:status>Test</urn:status>
+  <urn:msgType>Alert</urn:msgType>
+  <urn:source>grandpaham test suite</urn:source>
+  <urn:scope>Public</urn:scope>
+  <urn:addresses>999 1000 gham@grandpaham.com xxx-xxx-xxx</urn:addresses>
+  <urn:code>code1</urn:code>
+  <urn:code>code2</urn:code>
+  <urn:code>code3</urn:code>
+  <urn:note>CAP-035 with digest added.</urn:note>
+  <urn:incidents>Incident1 incident2</urn:incidents>
+  <urn:info>
+    <urn:language>en-US</urn:language>
+    <urn:category>Other</urn:category>
+    <urn:category>CBRNE</urn:category>
+    <urn:event>TEST ACTIVITY ONLY. PLEASE IGNORE.</urn:event>
+    <urn:responseType>Shelter</urn:responseType>
+    <urn:urgency>Past</urn:urgency>
+    <urn:severity>Minor</urn:severity>
+    <urn:certainty>Unlikely</urn:certainty>
+    <urn:audience>who should get message</urn:audience>
+    <urn:eventCode>
+      <urn:valueName>testValueName</urn:valueName>
+      <urn:value>testValue</urn:value>
+    </urn:eventCode>
+    <urn:effective>2011-08-08T09:46:46-04:00</urn:effective>
+    <urn:onset>2011-08-08T09:46:46-04:00</urn:onset>
+    <urn:expires>2011-08-08T10:46:46-04:00</urn:expires>
+    <urn:senderName>HAM G</urn:senderName>
+    <urn:headline>CAP-040 Test message</urn:headline>
+    <urn:description>This is Descriptive text that defines the alert</urn:description>
+    <urn:instruction>This is where the call to action for folks receiving the message should be provided</urn:instruction>
+    <urn:web>http://grandpaham.com</urn:web>
+    <urn:contact>personal contact data goes here</urn:contact>
+    <urn:parameter>
+      <urn:valueName>testParameterType</urn:valueName>
+      <urn:value>parameterValueOne</urn:value>
+    </urn:parameter>
+    <urn:resource>
+      <urn:resourceDesc>a description of an available resource</urn:resourceDesc>
+      <urn:mimeType>mp3</urn:mimeType>
+      <urn:size>84</urn:size>
+      <urn:digest>GIGO warning - content not validated by schema - any string will do. This includes nil due to Oracle validation error.</urn:digest>
+    </urn:resource>
+    <urn:resource>
+      <urn:resourceDesc>a description of an available resource</urn:resourceDesc>
+      <urn:mimeType>mp3</urn:mimeType>
+    </urn:resource>
+    <urn:area>
+      <urn:areaDesc>description of Area of Warning</urn:areaDesc>
+      <urn:polygon>-77.08 38.79,-77.06 38.79,-77.04 38.80,-77.03 38.83,-77.08</urn:polygon>
+      <urn:polygon>38.83,-77.08 38.79,-77.06 38.79,-77.04 38.80,-77.03 38.83,-77.08</urn:polygon>
+    </urn:area>
+  </urn:info>
+</urn:alert>

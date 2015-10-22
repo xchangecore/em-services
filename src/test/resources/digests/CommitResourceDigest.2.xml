@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+    <ns:Event id="uicds-incident-id">
+      <ns:SimpleProperty ns:code="Incident" ns:codespace="http://uicds.gov/1.0/codespace/event" ns:label="Type"/>
+      <ns:What ns:code="Event" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Event>
+    <ns:Entity id="RequestResource.1-ResourceInfoElementID.1-TD48">
+      <ns:Descriptor>Track Dozer #48</ns:Descriptor>
+      <ns:SimpleProperty ns:code="Comitted" ns:codespace="http://uicds.gov/1.0/codespace/event/status" ns:label="Status"/>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Category">Public Works and Engineering (ESF #3)"</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Kind">Equipment</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Resource">Track Dozer</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="MinimumCapabilities">Type II</ns:SimpleProperty>
+      <ns:What ns:code="Equipment" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Entity>
+    <ns:InvolvedIn id="InvolvedIn-7967f321-0d6b-4fe6-b192-57be45b95179">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-17-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:AgentRef ref="RequestResource.1-ResourceInfoElementID.1-TD48"/>
+      <ns:EventRef ref="uicds-incident-id"/>
+    </ns:InvolvedIn>
+    <ns:Location id="Location-f623dfd5-9b32-4027-84bf-4f3f344f13ad">
+      <ns:Descriptor>Arlington Waste Facility</ns:Descriptor>
+      <ns:GeoLocation>
+        <ns:Point>
+          <ns1:Point ns1:id="point-76db6768-2485-4bc1-8847-951c978881bd" xmlns:ns1="http://www.opengis.net/gml/3.2">
+            <ns1:pos>38.801168 -77.127685</ns1:pos>
+          </ns1:Point>
+        </ns:Point>
+      </ns:GeoLocation>
+    </ns:Location>
+    <ns:HasDestinationOf id="HasDestinationOf-fc055915-847e-4537-a09c-9c2851ad3806">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-17-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:EntityRef ref="RequestResource.1-ResourceInfoElementID.1-TD48"/>
+      <ns:LocationRef ref="Location-f623dfd5-9b32-4027-84bf-4f3f344f13ad"/>
+    </ns:HasDestinationOf>
+    <ns:Entity id="RequestResource.1-ResourceInfoElementID.2-TD7">
+      <ns:Descriptor>Track Dozer #7</ns:Descriptor>
+      <ns:SimpleProperty ns:code="Comitted" ns:codespace="http://uicds.gov/1.0/codespace/event/status" ns:label="Status"/>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Category">Public Works and Engineering (ESF #3)"</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Kind">Equipment</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Resource">Track Dozer</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="MinimumCapabilities">Type II</ns:SimpleProperty>
+      <ns:What ns:code="Equipment" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Entity>
+    <ns:InvolvedIn id="InvolvedIn-1bb8878c-e6d7-44c0-a73c-c684ffac0097">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-17-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:AgentRef ref="RequestResource.1-ResourceInfoElementID.2-TD7"/>
+      <ns:EventRef ref="uicds-incident-id"/>
+    </ns:InvolvedIn>
+    <ns:Location id="Location-a88087fc-4c23-437a-a7d9-daea5f3541b6">
+      <ns:Descriptor>Arlington Waste Facility</ns:Descriptor>
+      <ns:GeoLocation>
+        <ns:Point>
+          <ns1:Point ns1:id="point-8141cad0-1a3c-47c7-9ad4-1218c5d4ece1" xmlns:ns1="http://www.opengis.net/gml/3.2">
+            <ns1:pos>38.801168 -77.127685</ns1:pos>
+          </ns1:Point>
+        </ns:Point>
+      </ns:GeoLocation>
+    </ns:Location>
+    <ns:HasDestinationOf id="HasDestinationOf-0bff23be-9d65-4d66-a72f-779f102057dc">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-17-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:EntityRef ref="RequestResource.1-ResourceInfoElementID.2-TD7"/>
+      <ns:LocationRef ref="Location-a88087fc-4c23-437a-a7d9-daea5f3541b6"/>
+    </ns:HasDestinationOf>
+  </ns:Digest>
+

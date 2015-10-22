@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+    <env:Body>
+        <map:GetMapsRequest xmlns:map="http://uicds.org/MapService">
+            <map:IncidentId>test</map:IncidentId>
+        </map:GetMapsRequest>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tim:TypeIconMapDocument xmlns:tim="http://uicds.org/typeiconmap">
+
+<!-- Incident -->
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Event</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>AlertEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>CriminalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>CommunicationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>CyberSpaceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>DisasterEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>EconomicEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>EmergencyEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>EnvironmentalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>EvacuationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>ExerciseEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>FinancialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>HazardousEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>HumanitarianAssistanceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>InfrastructureEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>LawEnforcementEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>MigrationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>MilitaryEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>NaturalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>ObservationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>PlannedEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>PoliticalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>PublicHealthEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>SecurityEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>SocialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>TerroristEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>TransportationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>WeatherEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Met</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Safety</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Security</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Rescue</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Fire</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Health</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Env</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Transport</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Infra</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>CBRNE</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Incident</tim:WorkProduct>
+	<tim:Event>Other</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+<!-- Alert -->
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>AlertEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>CriminalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>CommunicationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>CyberSpaceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>DisasterEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>EconomicEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>EmergencyEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>EnvironmentalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>EvacuationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>ExerciseEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>FinancialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>HazardousEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>HumanitarianAssistanceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>InfrastructureEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>LawEnforcementEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>MigrationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>MilitaryEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>NaturalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>ObservationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>PlannedEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>PoliticalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>PublicHealthEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>SecurityEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>SocialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>TerroristEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>TransportationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>WeatherEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Met</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Safety</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Security</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Rescue</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Fire</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Health</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Env</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Transport</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Infra</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>CBRNE</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Alert</tim:WorkProduct>
+	<tim:Event>Other</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+
+<!-- Map -->
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Event</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>AlertEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>CriminalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>CommunicationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>CyberSpaceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>DisasterEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>EconomicEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>EmergencyEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>EnvironmentalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>EvacuationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>ExerciseEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>FinancialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>HazardousEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>HumanitarianAssistanceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>InfrastructureEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>LawEnforcementEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>MigrationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>MilitaryEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>NaturalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>ObservationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>PlannedEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>PoliticalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>PublicHealthEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>SecurityEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>SocialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>TerroristEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>TransportationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>WeatherEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Met</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Safety</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Security</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Rescue</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Fire</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Health</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Env</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Transport</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Infra</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>CBRNE</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Map</tim:WorkProduct>
+	<tim:Event>Other</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+<!-- Map -->
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Event</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>AlertEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>CriminalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>CommunicationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>CyberSpaceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>DisasterEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>EconomicEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>EmergencyEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>EnvironmentalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>EvacuationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>ExerciseEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>FinancialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>HazardousEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>HumanitarianAssistanceEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>InfrastructureEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>LawEnforcementEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>MigrationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>MilitaryEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>NaturalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>ObservationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>PlannedEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>PoliticalEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>PublicHealthEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>SecurityEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>SocialEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>TerroristEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>TransportationEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>WeatherEvent</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Met</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Safety</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Security</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Rescue</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Fire</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Health</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Env</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Transport</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Infra</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>CBRNE</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>Layer</tim:WorkProduct>
+	<tim:Event>Other</tim:Event>
+	<tim:Icon>../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</tim:Icon>
+	<tim:Color>red</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+<!-- RequestResource -->
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Entity</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Cargo</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>CollectionOfThings</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>CyberAgent</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Document</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Environment</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Equipment</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Facility</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>FinancialInstrument</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>GeographicFeature</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>GroupOfOrganizations</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>GroupOfPersons</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>InformationSource</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Infrastructure</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>LivingThing</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Animal</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Person</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>MicroOrganism</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Plant</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Organization</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>PoliticalEntity</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Sensor</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Vehicle</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>Aircraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>GroundVehicle</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>SpaceCraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>RequestResource</tim:WorkProduct>
+	<tim:Entity>WaterCraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+<!-- CommitResource -->
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Entity</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Cargo</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>CollectionOfThings</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>CyberAgent</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Document</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Environment</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Equipment</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Facility</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>FinancialInstrument</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>GeographicFeature</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>GroupOfOrganizations</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>GroupOfPersons</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>InformationSource</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Infrastructure</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>LivingThing</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Animal</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Person</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>MicroOrganism</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Plant</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Organization</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>PoliticalEntity</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Sensor</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Vehicle</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>Aircraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>GroundVehicle</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>SpaceCraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+<tim:Mapping>
+	<tim:WorkProduct>CommitResource</tim:WorkProduct>
+	<tim:Entity>WaterCraft</tim:Entity>
+	<tim:Icon>../Icons/HWSGSymbology/Operations/Emergency_Teams_S1.png</tim:Icon>
+	<tim:Color>blue</tim:Color>
+	<tim:Scale>15</tim:Scale>
+</tim:Mapping>
+
+</tim:TypeIconMapDocument>

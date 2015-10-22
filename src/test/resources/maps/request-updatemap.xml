@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<env:Body>
+		<map:UpdateMapRequest xmlns:map="http://uicds.org/MapService" xmlns:precisb="http://www.saic.com/precis/2009/06/base" xmlns:preciss="http://www.saic.com/precis/2009/06/structures">
+			<preciss:WorkProductIdentification>
+				<precisb:Identifier>mapId</precisb:Identifier>
+				<precisb:Version>1</precisb:Version>
+				<precisb:Type>MapViewContext</precisb:Type>
+				<precisb:Checksum>111</precisb:Checksum>
+			</preciss:WorkProductIdentification>
+				<ViewContext xmlns="http://www.opengis.net/context" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.0.0/context.xsd" collectionId="alertSmarts" id="DefaultWebMapContext" version="1.1.2">
+					<General>
+						<Title>Default Map</Title>
+						<Abstract>
+        This is the view context document which describes the default map of the alertSmarts workspace
+        </Abstract>
+						<Keywords/>
+						<Window height="572" width="959"/>
+						<BoundingBox SRS="EPSG:4326" maxx="-77.22391104020979" maxy="39.34873" minx="-78.06747895979022" miny="38.84558"/>
+					</General>
+					<LayerList>
+						<Layer queryable="1" hidden="0" proxied="0" opacity="1.0" viewRefreshMode="never" viewRefreshTime="1">
+							<Server service="WMS" version="1.1.1" title="World Map">
+								<OnlineResource type="simple" xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap"/>
+							</Server>
+							<StyleList>
+								<Style>
+									<Name>#default</Name>
+									<Title>Default Style</Title>
+								</Style>
+							</StyleList>
+							<SRS>EPSG:4326</SRS>
+							<Name>Bathymetry</Name>
+							<Title>Bathymetry</Title>
+						</Layer>
+						<Layer queryable="1" hidden="0">
+							<Server service="WMS" version="1.1.1" title="World Map">
+								<OnlineResource type="simple" xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap"/>
+							</Server>
+							<SRS>EPSG:4326</SRS>
+							<Name>Ocean features</Name>
+							<Title>Ocean features</Title>
+						</Layer>
+					</LayerList>
+				</ViewContext>
+		</map:UpdateMapRequest>
+	</env:Body>
+</env:Envelope>

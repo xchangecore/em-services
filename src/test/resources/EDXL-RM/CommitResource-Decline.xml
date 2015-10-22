@@ -1,0 +1,54 @@
+          <rmsg:CommitResource xmlns:rm="urn:oasis:names:tc:emergency:EDXL:RM:1.0" xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3" xmlns:xal="urn:oasis:names:tc:ciq:xal:3" xmlns:gml="http://www.opengis.net/gml" xmlns:rmsg="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg">
+            <rmsg:MessageID>35b87992-bd22-4ae2-bf07-fa5d5bb4fb80</rmsg:MessageID>
+            <rmsg:SentDateTime>2011-03-11T19:57:21.9517542Z</rmsg:SentDateTime>
+            <rmsg:MessageContentType>CommitResource</rmsg:MessageContentType>
+            <rmsg:MessageDescription>Commit Resource</rmsg:MessageDescription>
+            <rmsg:OriginatingMessageID>RequestResource.1</rmsg:OriginatingMessageID>
+            <rmsg:PrecedingMessageID>RequestResource.1</rmsg:PrecedingMessageID>
+            <rmsg:IncidentInformation>
+              <rm:IncidentID>uicds-incident-id</rm:IncidentID>
+            </rmsg:IncidentInformation>
+            <rmsg:Funding>
+              <rm:FundCode>$</rm:FundCode>
+              <rm:FundingInfo>$</rm:FundingInfo>
+            </rmsg:Funding>
+            <rmsg:ContactInformation>
+              <rm:ContactDescription>adapter@uicds.us</rm:ContactDescription>
+              <rm:ContactRole>Sender</rm:ContactRole>
+              <rm:ContactLocation>
+                <rm:LocationDescription>Greenbelt MD</rm:LocationDescription>
+              </rm:ContactLocation>
+              <rm:AdditionalContactInformation>
+                <xnl:PersonName xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3">
+                  <xnl:NameElement xnl:ElementType="FirstName">Michael</xnl:NameElement>
+                  <xnl:NameElement xnl:ElementType="LastName">Scott</xnl:NameElement>
+                </xnl:PersonName>
+              </rm:AdditionalContactInformation>
+            </rmsg:ContactInformation>
+            <rmsg:ResourceInformation>
+              <rmsg:ResourceInfoElementID>ResourceInfoElementID.1</rmsg:ResourceInfoElementID>
+              <rmsg:ResponseInformation>
+                <rm:PrecedingResourceInfoElementID>ResourceInfoElementID.1</rm:PrecedingResourceInfoElementID>
+                <rm:ResponseType>Decline</rm:ResponseType>
+              </rmsg:ResponseInformation>
+              <rmsg:Resource>
+                <rmsg:ResourceID>TD48</rmsg:ResourceID>
+                <rmsg:Name>Track Dozer #48</rmsg:Name>
+                <rmsg:Credentials>Credentials</rmsg:Credentials>
+                <rmsg:Certifications>Certifications</rmsg:Certifications>
+              </rmsg:Resource>
+            </rmsg:ResourceInformation>
+            <rmsg:ResourceInformation>
+              <rmsg:ResourceInfoElementID>ResourceInfoElementID.2</rmsg:ResourceInfoElementID>
+              <rmsg:ResponseInformation>
+                <rm:PrecedingResourceInfoElementID>ResourceInfoElementID.2</rm:PrecedingResourceInfoElementID>
+                <rm:ResponseType>Decline</rm:ResponseType>
+              </rmsg:ResponseInformation>
+              <rmsg:Resource>
+                <rmsg:ResourceID>TD7</rmsg:ResourceID>
+                <rmsg:Name>Track Dozer #7</rmsg:Name>
+                <rmsg:Credentials>Credentials</rmsg:Credentials>
+                <rmsg:Certifications>Certifications</rmsg:Certifications>
+              </rmsg:Resource>
+            </rmsg:ResourceInformation>
+          </rmsg:CommitResource>

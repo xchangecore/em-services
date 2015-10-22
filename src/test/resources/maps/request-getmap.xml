@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+  <env:Body>
+    <map:GetMapRequest xmlns:map="http://uicds.org/MapService" xmlns:preciss="http://www.saic.com/precis/2009/06/structures"
+									xmlns:precisb="http://www.saic.com/precis/2009/06/base">
+        <preciss:WorkProductIdentification>
+			<precisb:Identifier>mapId</precisb:Identifier>
+        </preciss:WorkProductIdentification>
+    </map:GetMapRequest>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,57 @@
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.1">
+    <identifier>AlertIdentifier3</identifier>
+    <sender>CAD@core1.saic.com</sender>
+    <sent>2008-04-14T18:00:00Z</sent>
+    <status>Actual</status>
+    <msgType>Cancel</msgType>
+    <source>cap:source</source>
+    <scope>Public</scope>
+    <restriction>cap:restriction</restriction>
+    <addresses>Mile Marker 138</addresses>
+    <code>cap:code</code>
+    <note>cap:note</note>
+    <references>a,AlertIdentifier3,c</references>
+    <incidents>cap:incidents</incidents>
+    <info>
+        <category>Transport</category>
+        <event>This is an Alert Event</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Extreme</severity>
+        <certainty>Observed</certainty>
+        <audience>cap:audience</audience>
+        <eventCode>
+            <valueName>name</valueName>
+            <value>value</value>
+        </eventCode>
+        <senderName>Joe Smith</senderName>
+        <headline>cap:headline</headline>
+        <description>cap:description</description>
+        <instruction>cap:instruction</instruction>
+        <web>http://tempuri.org</web>
+        <contact>cap:contact</contact>
+        <parameter>
+            <valueName>cap:valueName</valueName>
+            <value>cap:value</value>
+        </parameter>
+        <resource>
+            <resourceDesc>cap:resourceDesc</resourceDesc>
+            <mimeType>cap:mimeType</mimeType>
+            <size>0</size>
+            <uri>http://tempuri.org</uri>
+            <derefUri>cap:derefUri</derefUri>
+            <digest>cap:digest</digest>
+        </resource>
+        <area>
+            <areaDesc>cap:areaDesc</areaDesc>
+            <polygon>38.8,-77.3 38.8,-77.1 39.0,-77.1 39.0,-77.3 38.8,-77.3</polygon>
+            <circle>38.8,-77.1 1.0</circle>
+            <geocode>
+                <valueName>cap:valueName</valueName>
+                <value>cap:value</value>
+            </geocode>
+            <altitude>cap:altitude</altitude>
+            <ceiling>cap:ceiling</ceiling>
+        </area>
+    </info>
+</alert>

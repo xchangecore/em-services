@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns:Event id="Event-a3652a56-e9f3-43d8-b75d-70af507cfd51">
+          <ns:Descriptor>Incident used in CreateIncident Test</ns:Descriptor>
+          <ns:Identifier ns:code="ActivityName" ns:codespace="http://niem.gov/niem/niem-core/2.0" ns:label="ID">Flood Incident</ns:Identifier>
+          <ns:What ns:code="CBRNE" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ns:Event>
+        <ns:Location id="Location-33365ba6-b77e-48b1-8569-4a8f33c848ac">
+          <ns:GeoLocation>
+            <ns:Polygon>
+              <ns1:Polygon ns1:id="Polygon-2d5fd25c-91f2-433e-aa4c-826022297fb6" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                <ns1:exterior>
+                  <ns1:LinearRing>
+                    <ns1:pos srsName="EPSG:4326">38.8000,-76.7028</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">38.7972,-76.9028</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">39.0000,-76.9028</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">39.0000,-76.7028</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">38.7972,-76.7028</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">38.8000,-76.7028</ns1:pos>
+                  </ns1:LinearRing>
+                </ns1:exterior>
+              </ns1:Polygon>
+            </ns:Polygon>
+          </ns:GeoLocation>
+          <ns:GeoLocation>
+            <ns:CircleByCenterPoint>
+              <ns1:CircleByCenterPoint numArc="1" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                <ns1:pos srsName="EPSG:4326">38.2972 -76.7028</ns1:pos>
+                <ns1:radius uom="SMI">4.5</ns1:radius>
+              </ns1:CircleByCenterPoint>
+            </ns:CircleByCenterPoint>
+          </ns:GeoLocation>
+        </ns:Location>
+        <ns:OccursAt id="OccursAt-a80a1636-ae6c-40f7-8097-06cef9c18840">
+          <ns:Time>
+            <ns:TimeInstant>
+              <ns:Value>2009-10-14-04:00</ns:Value>
+            </ns:TimeInstant>
+          </ns:Time>
+          <ns:EventRef ref="Event-a3652a56-e9f3-43d8-b75d-70af507cfd51"/>
+          <ns:LocationRef ref="Location-33365ba6-b77e-48b1-8569-4a8f33c848ac"/>
+        </ns:OccursAt>
+      </ns:Digest>

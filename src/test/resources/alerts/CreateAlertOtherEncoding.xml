@@ -1,0 +1,44 @@
+<CreateAlertRequest xmlns="http://uicds.org/AlertService">
+    <cap11:alert xmlns:cap11="urn:oasis:names:tc:emergency:cap:1.1" xmlns:str="http://www.saic.com/precis/2009/06/structures"
+        xmlns:wps="http://uicds.org/WorkProductService" xmlns="http://www.saic.com/precis/2009/06/structures"
+        xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:ns="http://ucore.gov/ucore/2.0"
+        xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:ulex="ulex:message:structure:1.0">
+        <cap11:identifier>52764F405549A545E50B2D7EC369B118</cap11:identifier>
+        <cap11:sender>kotalik</cap11:sender>
+        <cap11:sent>2010-11-02T16:44:02.000-04:00</cap11:sent>
+        <cap11:status>Actual</cap11:status>
+        <cap11:msgType>Alert</cap11:msgType>
+        <cap11:password>disbraxy</cap11:password>
+        <cap11:source>NIMC</cap11:source>
+        <cap11:scope>Restricted</cap11:scope>
+        <cap11:restriction>NC4 Public Sector/Eric Kant</cap11:restriction>
+        <cap11:incidents>52764F405549A545E50B2D7EC369B118</cap11:incidents>
+        <cap11:info>
+            <cap11:category>Fire</cap11:category>
+            <cap11:event>5 Alarm Fire</cap11:event>
+            <cap11:urgency>Immediate</cap11:urgency>
+            <cap11:severity>Moderate</cap11:severity>
+            <cap11:certainty>Likely</cap11:certainty>
+            <cap11:headline>Rue St-Jacques &amp; Rue St Marguerite- Crews are on the scene of a
+                five-alarm residential fire.</cap11:headline>
+            <cap11:description>Crews are on the scene of a five-alarm residential fire located at
+                Rue St-Jacques &amp; Rue St Marguerite. The building is reportedly a two-storey
+                building. No injuries are being immediately reparteed.</cap11:description>
+            <cap11:area>
+                <cap11:areaDesc>4381 rue St-Jacques</cap11:areaDesc>
+                <cap11:circle>45.47627,-73.58941 0</cap11:circle>
+                <cap11:geocode>street=4381 rue St-Jacques</cap11:geocode>
+                <cap11:geocode>crossstreet=</cap11:geocode>
+                <cap11:geocode>city=Montréal</cap11:geocode>
+                <cap11:geocode>county=</cap11:geocode>
+                <cap11:geocode>district=</cap11:geocode>
+                <cap11:geocode>state=QC</cap11:geocode>
+                <cap11:geocode>country=Canada</cap11:geocode>
+                <cap11:geocode>region=North America</cap11:geocode>
+                <cap11:geocode>postal=H4C</cap11:geocode>
+                <cap11:geocode>latitude=45.47627</cap11:geocode>
+                <cap11:geocode>longitude=-73.58941</cap11:geocode>
+            </cap11:area>
+        </cap11:info>
+    </cap11:alert>
+</CreateAlertRequest>

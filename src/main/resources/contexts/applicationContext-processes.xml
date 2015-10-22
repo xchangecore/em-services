@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop" xmlns:integration="http://www.springframework.org/schema/integration"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-2.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config />
+
+	<!--           -->
+	<!-- Processes -->
+	<!-- UnComment this section to generate ICS product automatically
+	<bean id="icsGenerator" class="com.leidos.xchangecore.core.em.processes.icsgen.IcsGenerator">
+		<property name="incidentCommandService" ref="incidentCommandService" />
+		<property name="workProductService" ref="workProductService" />
+	</bean>
+	<integration:service-activator
+		input-channel="incidentStateNotificationChannel" ref="icsGenerator"
+		method="handleIncidentState" />
+    -->
+
+    <integration:publish-subscribe-channel id="pingChannel" />
+
+    <bean id="autoShareIncidents" class="com.leidos.xchangecore.core.em.processes.agreements.AutoShareIncidents">
+        <property name="workProductService" ref="workProductService" />
+        <property name="agreementDAO" ref="agreementDAO" />
+        <property name="queuedMessageDAO" ref="queuedMessageDAO" />
+        <property name="incidentManagementService" ref="incidentManagementService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="pingChannel" ref="pingChannel" />
+    </bean>
+
+	<!-- START_DEPLOY_TOKEN -->
+    <integration:service-activator input-channel="incidentStateNotificationChannel"
+        ref="autoShareIncidents" method="handleIncidentState" />
+    <integration:service-activator input-channel="coreStatusUpdateChannel"
+        ref="autoShareIncidents" method="coreStatusUpdateHandler" />
+	<!-- END_DEPLOY_TOKEN -->
+
+	<!-- START_IPAWS_TOKEN -->
+
+<!--  
+	<bean id="ipawsAgent" class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSAgent">
+		<property name="ipawsCap" ref="ipawsCap" /> 
+		<property name="ipawsEdxl" ref="ipawsEdxl" />
+	</bean>
+
+	 <bean id="ipawsCap" class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSCap">
+		<property name="webServiceClient" ref="ipawsCAPWebServiceClient" />
+		<property name="alertWorkProduct" ref="ipawsAlertWorkProduct" />
+		<property name="cogs" value="120018" />
+		<property name="postToCogs" value="120018" />
+		<property name="firstRetrievePeriod" value="ALL" />
+	</bean>  
+
+	<bean id="ipawsEdxl" class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSEdxl">
+		<property name="webServiceClient" ref="ipawsEDXLWebServiceClient" />
+		<property name="ipawsCap" ref="ipawsCap" />
+		<property name="ipawsBroadcast" ref="ipawsBroadcast" />
+		<property name="cogs" value="120018" />
+		<property name="postToCogs" value="120018" />
+		<property name="firstRetrievePeriod" value="ALL" />
+	</bean>
+
+	<bean id="ipawsAlertWorkProduct"
+		class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSAlertWorkProduct" />
+	<bean id="ipawsBroadcast"
+		class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSEdxlBroadcast" />
+
+	<bean id="ipawsCAPWebServiceClient"
+		class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSSpringClient">
+		<property name="webServiceTemplate" ref="ipawsCAPServiceTemplate" />
+		<property name="URI"
+			value="https://tdl.integration.fema.gov/DMOPEN_CAPService/DMOPEN_CAPService" />
+	</bean>
+
+
+	<bean id="ipawsEDXLWebServiceClient"
+		class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSSpringClient">
+		<property name="webServiceTemplate" ref="ipawsEDXLServiceTemplate" />
+		<property name="URI"
+			value="https://tdl.integration.fema.gov/DMOPEN_EDXLDEService/DMOPEN_EDXLDEService" />
+	</bean>
+
+	<bean id="xmlbeansMarshaller" class="org.springframework.oxm.xmlbeans.XmlBeansMarshaller" />
+	<bean
+		class="org.springframework.ws.server.endpoint.adapter.GenericMarshallingMethodEndpointAdapter">
+		<property name="marshaller" ref="xmlbeansMarshaller" />
+		<property name="unmarshaller" ref="xmlbeansMarshaller" />
+	</bean>
+
+	<bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory" />
+
+	<bean id="ipawsCAPServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">
+		<constructor-arg ref="messageFactory" />
+		<property name="marshaller" ref="xmlbeansMarshaller" />
+		<property name="unmarshaller" ref="xmlbeansMarshaller" />
+		<property name="messageSender">
+			<bean
+				class="org.springframework.ws.transport.http.CommonsHttpMessageSender">
+				<property name="credentials">
+					<bean class="org.apache.commons.httpclient.UsernamePasswordCredentials">
+						<constructor-arg value="admin" />
+						<constructor-arg value="password" />
+					</bean>
+				</property>
+			</bean>
+		</property>
+		<property name="interceptors">
+			<list>
+				<ref bean="securityInterceptor" />
+				<ref bean="capHeaderInterceptor" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="ipawsEDXLServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">
+		<constructor-arg ref="messageFactory" />
+		<property name="marshaller" ref="xmlbeansMarshaller" />
+		<property name="unmarshaller" ref="xmlbeansMarshaller" />
+		<property name="messageSender">
+			<bean
+				class="org.springframework.ws.transport.http.CommonsHttpMessageSender">
+				<property name="credentials">
+					<bean class="org.apache.commons.httpclient.UsernamePasswordCredentials">
+						<constructor-arg value="admin" />
+						<constructor-arg value="password" />
+					</bean>
+				</property>
+			</bean>
+		</property>
+		<property name="interceptors">
+			<list>
+				<ref bean="securityInterceptor" />
+				<ref bean="edxlHeaderInterceptor" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="securityInterceptor"
+      class="org.springframework.ws.soap.security.wss4j.Wss4jSecurityInterceptor">
+      <property name="securementActions" value="Signature" />
+      <property name="securementUsername" value="ipawsopen_120018" />
+      <property name="securementPassword" value="2388soa#wRn" />
+      <property name="securementSignatureCrypto">
+        <bean
+          class="org.springframework.ws.soap.security.wss4j.support.CryptoFactoryBean">
+          <property name="keyStorePassword" value="w0rk#9168" />
+          <property name="defaultX509Alias" value="client" />
+          <property name="keyStoreLocation" value="classpath:/IPAWSOPEN_120018.jks" />  
+        </bean>
+      </property>
+      <property name="securementSignatureKeyIdentifier" value="DirectReference" />
+      <property name="securementSignatureParts" value="Body" />
+    </bean>
+    
+    <bean id="capHeaderInterceptor" class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSCAPHeaderType"/>
+    <bean id="edxlHeaderInterceptor" class="com.leidos.xchangecore.core.em.processes.ipaws.IPAWSEDXLHeaderType"/>
+-->
+
+
+
+	<!-- ipaws scheduler -->
+<!-- 
+	<bean id="schedulerTask"
+		class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
+		<property name="targetObject" ref="ipawsAgent" />
+		<property name="targetMethod" value="getMessages" />
+	</bean>
+
+	<bean id="timerTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="delay" value="60000" />
+		<property name="period" value="180000" />
+		<property name="timerTask" ref="schedulerTask" />
+	</bean>
+
+
+	<bean id="startingTask"
+		class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
+		<property name="targetObject" ref="ipawsAgent" />
+		<property name="targetMethod" value="startGettingMessages" />
+	</bean>
+
+
+	<bean id="startTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="delay" value="10000" />
+		<property name="timerTask" ref="startingTask" />
+	</bean>
+
+	<bean class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<ref local="timerTask" />
+				<ref local="startTask" />
+			</list>
+		</property>
+	</bean>
+-->
+
+	<!-- END_IPAWS_TOKEN -->
+
+</beans>

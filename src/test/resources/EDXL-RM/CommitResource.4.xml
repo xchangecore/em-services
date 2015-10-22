@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rmsg:CommitResource xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" 
+ xmlns:rm="urn:oasis:names:tc:emergency:EDXL:RM:1.0" xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3" 
+ xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ct="urn:oasis:names:tc:ciq:ct:3" 
+ xmlns:xal="urn:oasis:names:tc:ciq:xal:3" xmlns:rmsg="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg" 
+ xmlns:xlink1="http://www.w3.org/1999/xlink1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg external/edxl-rm/1.0/EDXL-RMCommitResource.xsd" >
+  <rmsg:MessageID>CommitResource.4</rmsg:MessageID>
+  <rmsg:SentDateTime>2009-06-09T13:10:00</rmsg:SentDateTime>
+  <rmsg:MessageContentType>CommitResource</rmsg:MessageContentType>
+  <rmsg:OriginatingMessageID>RequestResource.4</rmsg:OriginatingMessageID>
+  <rmsg:PrecedingMessageID>RequestResource.4</rmsg:PrecedingMessageID>
+  <rmsg:ContactInformation>
+  <rm:ContactDescription>Fairfax Fire Station</rm:ContactDescription>
+  	<rm:ContactRole>Owner</rm:ContactRole>
+  	<rm:ContactLocation>
+  		<rm:LocationDescription>Fairfax</rm:LocationDescription>
+  	</rm:ContactLocation>
+  </rmsg:ContactInformation>
+  <rmsg:ResourceInformation>
+    <rmsg:ResourceInfoElementID>ResourceInfoElementID.1</rmsg:ResourceInfoElementID>
+    <rmsg:ResponseInformation>
+      <rm:PrecedingResourceInfoElementID>ResourceInfoElementID.1</rm:PrecedingResourceInfoElementID>
+      <rm:ResponseType>Accept</rm:ResponseType>
+    </rmsg:ResponseInformation>
+    <rmsg:Resource>
+    	<rmsg:ResourceID>TD48</rmsg:ResourceID>
+    	<rmsg:Name>Track Dozer #48</rmsg:Name>
+    	<rmsg:TypeStructure>
+    		<rm:ValueListURN>http://nimsonline.org/2.0</rm:ValueListURN>
+    		<rm:Value>NIMS Typing Version X</rm:Value>
+    	</rmsg:TypeStructure>
+    	<rmsg:TypeInfo>
+    		<Resource>Track Dozer</Resource>
+    		<Category>Public Works and Engineering (ESF #3)"</Category>
+  			<Kind>Equipment</Kind>
+  			<MinimumCapabilities>Type II</MinimumCapabilities>
+    	</rmsg:TypeInfo>
+    	<rmsg:Keyword>
+    		<rm:ValueListURN>urn:uicds:resource:keywords:required:TrackDozer#BladeCapacity</rm:ValueListURN>
+    		<rm:Value>6.0</rm:Value>
+    	</rmsg:Keyword>
+    	<rmsg:Keyword>
+    		<rm:ValueListURN>urn:vdem#County</rm:ValueListURN>
+    		<rm:Value>Fairfax</rm:Value>
+    	</rmsg:Keyword>
+    </rmsg:Resource>
+    <rmsg:ScheduleInformation>
+    	<rmsg:ScheduleType>Committed</rmsg:ScheduleType>
+    	<rmsg:Location>
+			<rm:LocationDescription>Arlington Waste Facility</rm:LocationDescription>
+    	</rmsg:Location>
+    </rmsg:ScheduleInformation>
+  </rmsg:ResourceInformation>
+  <rmsg:ResourceInformation>
+  	<rmsg:ResourceInfoElementID>ResourceInfoElementID.2</rmsg:ResourceInfoElementID>
+  	<rmsg:ResponseInformation>
+  		<rm:PrecedingResourceInfoElementID>ResourceInfoElementID.1</rm:PrecedingResourceInfoElementID>
+  		<rm:ResponseType>Accept</rm:ResponseType>
+  	</rmsg:ResponseInformation>
+    <rmsg:Resource>
+    	<rmsg:ResourceID>TD7</rmsg:ResourceID>
+    	<rmsg:Name>Track Dozer #7</rmsg:Name>
+    	<rmsg:TypeStructure>
+    		<rm:ValueListURN>http://nimsonline.org/2.0</rm:ValueListURN>
+    		<rm:Value>NIMS Typing Version X</rm:Value>
+    	</rmsg:TypeStructure>
+    	<rmsg:TypeInfo>
+    		<Resource>Track Dozer</Resource>
+    		<Category>Public Works and Engineering (ESF #3)"</Category>
+  			<Kind>Equipment</Kind>
+  			<MinimumCapabilities>Type II</MinimumCapabilities>
+    	</rmsg:TypeInfo>
+    	<rmsg:Keyword>
+    		<rm:ValueListURN>urn:uicds:resource:keywords:required:TrackDozer#BladeCapacity</rm:ValueListURN>
+    		<rm:Value>6.0</rm:Value>
+    	</rmsg:Keyword>
+    	<rmsg:Keyword>
+    		<rm:ValueListURN>urn:vdem#County</rm:ValueListURN>
+    		<rm:Value>Fairfax</rm:Value>
+    	</rmsg:Keyword>
+    </rmsg:Resource>
+    <rmsg:ScheduleInformation>
+    	<rmsg:ScheduleType>Committed</rmsg:ScheduleType>
+    	<rmsg:Location>
+			<rm:LocationDescription>Arlington Waste Facility</rm:LocationDescription>
+    	</rmsg:Location>
+    </rmsg:ScheduleInformation>
+  </rmsg:ResourceInformation>
+</rmsg:CommitResource>

@@ -1,0 +1,17 @@
+<Layer xmlns="http://www.opengis.net/context" xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.0.0/context.xsd" 
+    queryable="1" hidden="0">
+    <Server service="WMS" version="1.1.1" title="World Map">
+        <OnlineResource type="simple" xlink:href="http://www2.demis.nl/wms/wms.asp?wms=WorldMap"/>
+    </Server>
+    <StyleList>
+        <Style>
+            <Name>default</Name>
+            <Title>Default Style</Title>
+        </Style>
+    </StyleList>
+    <SRS>EPSG:4326</SRS>
+    <Name>Bathymetry</Name>
+    <Title>Bathymetry</Title>
+</Layer>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<inc:Incident xmlns:inc="http://uicds.org/incident" xmlns:ns3="http://niem.gov/niem/structures/2.0" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:ns="http://ucore.gov/ucore/2.0" xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns4="http://niem.gov/niem/niem-core/2.0">
+		<ns4:ActivityIdentification>
+			<ns4:IdentificationID>
+                        null</ns4:IdentificationID>
+		</ns4:ActivityIdentification>
+		<ns4:ActivityCategoryText>
+                    Bomb Threat</ns4:ActivityCategoryText>
+		<ns4:ActivityDate>
+			<ns4:DateTime>
+                        2012-03-15T10:45:52.000-04:00</ns4:DateTime>
+		</ns4:ActivityDate>
+		<ns4:ActivityDescriptionText>
+                    test</ns4:ActivityDescriptionText>
+		<ns4:ActivityName>
+                    County Significant Events (pvision)</ns4:ActivityName>
+		<ns4:IncidentLocation>
+			<ns4:LocationAddress>
+				<ns4:AddressFullText>
+                            Sugar Hill Dr, Bishopville, SC 29010, USA</ns4:AddressFullText>
+			</ns4:LocationAddress>
+			<ns4:LocationArea>
+				<ns4:AreaCircularRegion>
+					<ns4:CircularRegionCenterCoordinate>
+						<ns4:GeographicCoordinateLatitude>
+							<ns4:LatitudeDegreeValue>
+                                        34</ns4:LatitudeDegreeValue>
+							<ns4:LatitudeMinuteValue>
+                                        6</ns4:LatitudeMinuteValue>
+							<ns4:LatitudeSecondValue>
+                                        13.68</ns4:LatitudeSecondValue>
+						</ns4:GeographicCoordinateLatitude>
+						<ns4:GeographicCoordinateLongitude>
+							<ns4:LongitudeDegreeValue>
+                                        -80</ns4:LongitudeDegreeValue>
+							<ns4:LongitudeMinuteValue>
+                                        10</ns4:LongitudeMinuteValue>
+							<ns4:LongitudeSecondValue>
+                                        10.110</ns4:LongitudeSecondValue>
+						</ns4:GeographicCoordinateLongitude>
+					</ns4:CircularRegionCenterCoordinate>
+					<ns4:CircularRegionRadiusLengthMeasure>
+						<ns4:MeasurePointValue>
+                                    0.0</ns4:MeasurePointValue>
+					</ns4:CircularRegionRadiusLengthMeasure>
+				</ns4:AreaCircularRegion>
+			</ns4:LocationArea>
+		</ns4:IncidentLocation>
+		<ns4:IncidentEvent>
+			<ns4:ActivityName>
+                        Palmetto Vision Beta Test</ns4:ActivityName>
+		</ns4:IncidentEvent>
+		<ns4:IncidentJurisdictionalOrganization>
+			<ns4:OrganizationName>
+                        </ns4:OrganizationName>
+			<ns4:OrganizationPrincipalOfficial>
+				<ns4:PersonName>
+					<ns4:PersonFullName>
+                                Palmetto Vision Tester</ns4:PersonFullName>
+				</ns4:PersonName>
+			</ns4:OrganizationPrincipalOfficial>
+			<ns4:OrganizationStatus>
+				<ns4:StatusDescriptionText>
+                            </ns4:StatusDescriptionText>
+			</ns4:OrganizationStatus>
+		</ns4:IncidentJurisdictionalOrganization>
+		<inc:OwningCore>
+                    </inc:OwningCore>
+	</inc:Incident>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+    <!-- Servlets -->
+
+    <bean id="mapServiceWmsController" class="com.leidos.xchangecore.core.em.controller.MapServiceWmsController">
+        <property name="mapService" ref="mapService" />
+    </bean>
+
+    <bean id="searchController" class="com.leidos.xchangecore.core.em.controller.SearchController">
+        <property name="configurationService" ref="configurationService" />
+        <property name="supportedMethods" value="GET" />
+        <property name="connectorFactory">
+            <bean class="com.usersmarts.cx.web.ConfiguredServletRequestConnectorFactory">
+                <property name="spec">
+                    <bean class="com.usersmarts.cx.util.ConnectionSpecFactoryBean">
+                        <property name="urn" value="cx:hbm:workspace::uicds" />
+                    </bean>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="featureWmsController" class="com.leidos.xchangecore.core.em.controller.FeatureWmsController">
+        <property name="workProductService" ref="workProductService" />
+    </bean>
+
+    <!-- -->
+    <bean id="emUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+            <list>
+                <ref bean="connectorServiceInterceptor" />
+            </list>
+        </property>
+        <property name="mappings">
+            <props>
+                <prop key="/**/maps/*">mapServiceWmsController</prop>
+                <prop key="/**/features">featureWmsController</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns:Event id="Event-022ad805-7781-4c20-81f7-1974aeb376e2">
+          <ns:Descriptor>cap:description</ns:Descriptor>
+          <ns:Identifier ns:code="identifier" ns:codespace="urn:oasis:names:tc:emergency:cap:1.1" ns:label="ID">CAP-ccf56fdb-8be1-4fdd-816b-f74b51a5a98d</ns:Identifier>
+          <ns:What ns:code="AlertEvent" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+          <ns:What ns:code="Transport" ns:codespace="urn:oasis:names:tc:emergency:cap:1.1"/>
+        </ns:Event>
+        <ns:Location id="Location-ccf56fdb-8be1-4fdd-816b-f74b51a5a98d">
+          <ns:GeoLocation>
+            <ns:Polygon>
+              <ns1:Polygon ns1:id="Polygon-f45ba682-299d-436c-adf0-1e7d5153daea" srsName="EPSG:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                <ns1:exterior>
+                  <ns1:LinearRing>
+                    <ns1:pos srsName="EPSG:4326">38.8 -77.3</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">38.8 -77.1</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">39.0 -77.1</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">39.0 -77.3</ns1:pos>
+                    <ns1:pos srsName="EPSG:4326">38.8 -77.3</ns1:pos>
+                  </ns1:LinearRing>
+                </ns1:exterior>
+              </ns1:Polygon>
+            </ns:Polygon>
+          </ns:GeoLocation>
+        </ns:Location>
+        <ns:OccursAt id="OccursAt-e89694b9-1361-4515-8870-295e7e0873e1">
+          <ns:Time>
+            <ns:TimeInstant>
+              <ns:Value>2001-12-13</ns:Value>
+            </ns:TimeInstant>
+          </ns:Time>
+          <ns:EventRef ref="Event-aac79388-6a68-4e5d-bd1c-9d06012338d6"/>
+          <ns:LocationRef ref="Location-ccf56fdb-8be1-4fdd-816b-f74b51a5a98d"/>
+        </ns:OccursAt>
+      </ns:Digest>

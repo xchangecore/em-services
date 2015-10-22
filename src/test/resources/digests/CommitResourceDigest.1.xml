@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+	<ns:Event id="IG-872daa85-3ceb-4f08-9944-e6698b5c8017">
+		<ns:SimpleProperty ns:code="Incident"
+			ns:codespace="http://uicds.gov/1.0/codespace/event" ns:label="Type" />
+		<ns:What ns:code="Event" ns:codespace="http://ucore.gov/ucore/2.0/codespace/" />
+	</ns:Event>
+	<ns:Entity id="RequestResource.1-ResourceInfoElementID.1-TD48">
+		<ns:Descriptor>Track Dozer #48</ns:Descriptor>
+		<ns:SimpleProperty ns:code="Comitted"
+			ns:codespace="http://uicds.gov/1.0/codespace/event/status" ns:label="Status" />
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Category">Public Works and Engineering (ESF #3)"</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Kind">Equipment</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Resource">Track Dozer</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="MinimumCapabilities">Type II</ns:SimpleProperty>
+		<ns:What ns:code="Equipment" ns:codespace="http://ucore.gov/ucore/2.0/codespace/" />
+	</ns:Entity>
+	<ns:InvolvedIn id="InvolvedIn-1b098c2c-ea6b-4732-9432-a4359a2f9601">
+		<ns:Time>
+			<ns:TimeInstant>
+				<ns:Value>2009-11-17-05:00</ns:Value>
+			</ns:TimeInstant>
+		</ns:Time>
+		<ns:AgentRef ref="RequestResource.1-ResourceInfoElementID.1-TD48" />
+		<ns:EventRef ref="IG-872daa85-3ceb-4f08-9944-e6698b5c8017" />
+	</ns:InvolvedIn>
+	<ns:Location id="Location-e400fa84-547b-48d9-bd1c-f0f7ce0f2c0d">
+		<ns:Descriptor>Arlington Waste Facility</ns:Descriptor>
+	</ns:Location>
+	<ns:HasDestinationOf
+		id="HasDestinationOf-4759cac6-d076-47b2-a2dd-200b16f2bf33">
+		<ns:Time>
+			<ns:TimeInstant>
+				<ns:Value>2009-11-17-05:00</ns:Value>
+			</ns:TimeInstant>
+		</ns:Time>
+		<ns:EntityRef ref="RequestResource.1-ResourceInfoElementID.1-TD48" />
+		<ns:LocationRef ref="Location-e400fa84-547b-48d9-bd1c-f0f7ce0f2c0d" />
+	</ns:HasDestinationOf>
+	<ns:Entity id="RequestResource.1-ResourceInfoElementID.2-TD7">
+		<ns:Descriptor>Track Dozer #7</ns:Descriptor>
+		<ns:SimpleProperty ns:code="Comitted"
+			ns:codespace="http://uicds.gov/1.0/codespace/event/status" ns:label="Status" />
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Category">Public Works and Engineering (ESF #3)"</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Kind">Equipment</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="Resource">Track Dozer</ns:SimpleProperty>
+		<ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0"
+			ns:label="MinimumCapabilities">Type II</ns:SimpleProperty>
+		<ns:What ns:code="Equipment" ns:codespace="http://ucore.gov/ucore/2.0/codespace/" />
+	</ns:Entity>
+	<ns:InvolvedIn id="InvolvedIn-7c116754-67c2-4c52-a0a1-bd61fd81c72c">
+		<ns:Time>
+			<ns:TimeInstant>
+				<ns:Value>2009-11-17-05:00</ns:Value>
+			</ns:TimeInstant>
+		</ns:Time>
+		<ns:AgentRef ref="RequestResource.1-ResourceInfoElementID.2-TD7" />
+		<ns:EventRef ref="IG-872daa85-3ceb-4f08-9944-e6698b5c8017" />
+	</ns:InvolvedIn>
+	<ns:Location id="Location-05bd7b27-8391-4184-a149-9fc97abcacb0">
+		<ns:Descriptor>Arlington Waste Facility</ns:Descriptor>
+	</ns:Location>
+	<ns:HasDestinationOf
+		id="HasDestinationOf-48a6eef8-1cea-4160-8b57-b49a2cbc5ed8">
+		<ns:Time>
+			<ns:TimeInstant>
+				<ns:Value>2009-11-17-05:00</ns:Value>
+			</ns:TimeInstant>
+		</ns:Time>
+		<ns:EntityRef ref="RequestResource.1-ResourceInfoElementID.2-TD7" />
+		<ns:LocationRef ref="Location-05bd7b27-8391-4184-a149-9fc97abcacb0" />
+	</ns:HasDestinationOf>
+</ns:Digest>
+

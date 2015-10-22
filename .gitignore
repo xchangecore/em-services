@@ -1,0 +1,16 @@
+maven-eclipse.xml
+.externalToolBuilders/
+.classpath
+.project
+.settings/
+target/
+**/infra-services
+**/infra-xmpp
+**/infra-xmpp-tools
+**/em-services
+**/em-processes
+**/em-war
+**/xmlbeans-infrastructure
+**/xmlbeans-edxl_rm
+**/xmlbeans-em
+**/xmlbeans-have

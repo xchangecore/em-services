@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+    <ns:Event id="uicds-incident-id">
+      <ns:SimpleProperty ns:code="Incident" ns:codespace="http://uicds.gov/1.0/codespace/event" ns:label="Type"/>
+      <ns:What ns:code="Event" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Event>
+    <ns:Event id="RequestResource.1-ResourceInfoElementID.1">
+      <ns:SimpleProperty ns:code="Open" ns:codespace="http://uicds.gov/1.0/codespace/event" ns:label="Status"/>
+      <ns:SimpleProperty ns:code="AssignmentInformation.Quantity" ns:codespace="urn:oasis:names:tc:emergency:EDXL:RM:1.0" ns:label="Quantity">4</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Category">Public Works and Engineering (ESF #3)"</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Kind">Equipment</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="Resource">Track Dozer</ns:SimpleProperty>
+      <ns:SimpleProperty ns:codespace="http://nimsonline.org/2.0" ns:label="MinimumCapabilities">Type I</ns:SimpleProperty>
+      <ns:What ns:code="CommunicationEvent" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+      <ns:What ns:code="RequestResource" ns:codespace="http://uicds.gov/1.0/codespace"/>
+    </ns:Event>
+    <ns:Location id="Location-e22a8dc3-844e-4d44-a93d-7fbe31dc6c97">
+      <ns:Descriptor>Arlington Waste Facility</ns:Descriptor>
+      <ns:GeoLocation>
+        <ns:Point>
+          <ns1:Point ns1:id="point-e7a900e1-e522-4c08-b20f-3e635a8a85ec" xmlns:ns1="http://www.opengis.net/gml/3.2">
+            <ns1:pos>38.801168 -77.127685</ns1:pos>
+          </ns1:Point>
+        </ns:Point>
+      </ns:GeoLocation>
+    </ns:Location>
+    <ns:OccursAt id="OccursAt-5886a348-9ba2-4fb6-9a55-416df35f9298">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-18-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:EventRef ref="uicds-incident-id"/>
+      <ns:LocationRef ref="Location-e22a8dc3-844e-4d44-a93d-7fbe31dc6c97"/>
+    </ns:OccursAt>
+    <ns:CauseOf id="CauseOf-6044dcea-0743-4c0e-bcaf-e6bbd39dbd91">
+      <ns:Cause ref="uicds-incident-id"/>
+      <ns:Effect ref="RequestResource.1-ResourceInfoElementID.1"/>
+    </ns:CauseOf>
+    <ns:Location id="Location-99561531-e6ef-49b1-b306-667550bf5022">
+      <ns:Descriptor>Arlington</ns:Descriptor>
+      <ns:GeoLocation>
+        <ns:Point>
+          <ns1:Point ns1:id="point-fd2b88e7-c915-4f6c-88f4-118c749b82ad" xmlns:ns1="http://www.opengis.net/gml/3.2">
+            <ns1:pos>38.866014 -77.193162</ns1:pos>
+          </ns1:Point>
+        </ns:Point>
+      </ns:GeoLocation>
+    </ns:Location>
+    <ns:Organization id="Organization-874573af-4c15-42b8-a368-f90b08e57356">
+      <ns:Descriptor>Arlington Fire Station</ns:Descriptor>
+      <ns:What ns:code="Organization" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Organization>
+    <ns:LocatedAt id="LocatedAt-f366e4f5-c554-4db7-a58b-d32482f36835">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-18-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:EntityRef ref="Organization-874573af-4c15-42b8-a368-f90b08e57356"/>
+      <ns:LocationRef ref="Location-99561531-e6ef-49b1-b306-667550bf5022"/>
+    </ns:LocatedAt>
+    <ns:InvolvedIn id="InvolvedIn-49a9bfd0-2af7-4d57-95ec-b60c30e784a6">
+      <ns:Time>
+        <ns:TimeInstant>
+          <ns:Value>2009-11-18-05:00</ns:Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:AgentRef ref="Organization-874573af-4c15-42b8-a368-f90b08e57356"/>
+      <ns:EventRef ref="RequestResource.1-ResourceInfoElementID.1"/>
+    </ns:InvolvedIn>
+  </ns:Digest>

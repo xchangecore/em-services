@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:integration="http://www.springframework.org/schema/integration"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-2.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <!-- MESSAGE CHANNELS -->
+    <integration:service-activator input-channel="productChangeNotificationChannel"
+        ref="mapService" method="productChangeNotificationHandler" />
+
+    <!--
+        Resource message Notification channel
+        <integration:publish-subscribe-channel id="resourceNotificationChannel" />
+    -->
+
+    <!--
+        Incident State Notification channel - from Incident Management Service to all incident
+        observers
+        TODO: this channel should be removed once the messages sent over this channels
+        have been replaced with method invocations.
+    -->
+    <integration:publish-subscribe-channel id="incidentStateNotificationChannel" />
+    <integration:service-activator input-channel="incidentStateNotificationChannel"
+        ref="mapService" method="handleIncidentState" />
+
+    <!--
+        New Joined Incident channel - from CommunicationsService to IncidentManagementService when a
+        shared incident is received by a joined core
+    -->
+
+    <integration:service-activator input-channel="newJoinedInterestGroupChannel"
+        ref="incidentManagementService" method="newJoinedInterestGroupHandler" />
+
+    <integration:service-activator input-channel="deleteJoinedInterestGroupChannel"
+        ref="incidentManagementService" method="deleteJoinedInterestGroupHandler" />
+
+
+    <integration:service-activator input-channel="resourceMessageNotificationChannel"
+        ref="resourceManagementService" method="resourceMessageNotificationHandler" />
+
+    <integration:service-activator input-channel="broadcastMessageNotificationChannel"
+        ref="broadcastService" method="broadcastMessageNotificationHandler" />
+
+    <!-- System Initialized Service Activators -->
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="mapService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="alertService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="incidentManagementService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="incidentCommandService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="broadcastService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="resourceManagementService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="taskingService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="sensorService" method="systemInitializedHandler" />
+    <integration:service-activator input-channel="systemInitializedChannel"
+        ref="iapService" method="systemInitializedHandler" />
+
+
+    <!-- -->
+    <!-- DAOs -->
+    <!-- -->
+    <bean id="userInterestGroupDAO" class="com.leidos.xchangecore.core.infrastructure.dao.hb.UserInterestGroupDAOHibernate" />
+    <bean id="interestGroupDAO" class="com.leidos.xchangecore.core.infrastructure.dao.hb.InterestGroupDAOHibernate" />
+    <bean id="agreementDAO" class="com.leidos.xchangecore.core.infrastructure.dao.hb.AgreementDAOHibernate" />
+    <bean id="incidentDAO" class="com.leidos.xchangecore.core.em.dao.hb.IncidentDAOHibernate" />
+    <bean id="leitscIncidentDAO" class="com.leidos.xchangecore.core.em.dao.hb.LEITSCIncidentDAOHibernate" />
+    <bean id="incidentCommandDAO" class="com.leidos.xchangecore.core.em.dao.hb.IncidentCommandDAOHibernate" />
+    <bean id="organizationElementDAO" class="com.leidos.xchangecore.core.em.dao.hb.OrganizationElementDAOHibernate" />
+    <bean id="organizationPositionDAO" class="com.leidos.xchangecore.core.em.dao.hb.OrganizationPositionDAOHibernate" />
+
+    <!-- -->
+    <!-- Services -->
+    <!-- -->
+    <bean id="incidentManagementService" class="com.leidos.xchangecore.core.em.service.impl.IncidentManagementServiceImpl">
+        <property name="incidentStateNotificationChannel" ref="incidentStateNotificationChannel" />
+        <property name="ldapUtil" ref="ldapUtil" />
+        <property name="incidentDAO" ref="incidentDAO" />
+        <property name="agreementDAO" ref="agreementDAO" />
+        <property name="interestGroupDAO" ref="interestGroupDAO" />
+        <property name="userInterestGroupDAO" ref="userInterestGroupDAO" />
+        <property name="workProductService" ref="workProductService" />
+        <property name="configurationService" ref="configurationService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="pubSubService" ref="pubSubService" />
+        <property name="interestGroupManagementComponent" ref="interestGroupManagementComponent" />
+        <property name="xsltFilePath" value="xslt/IncidentDigest.xsl" />
+        <property name="iconConfigXmlFilePath" value="xml/types_icons.xml" />
+    </bean>
+    <bean id="alertService" class="com.leidos.xchangecore.core.em.service.impl.AlertServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+    </bean>
+    <bean id="incidentCommandService" class="com.leidos.xchangecore.core.em.service.impl.IncidentCommandServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="organizationElementDAO" ref="organizationElementDAO" />
+        <property name="incidentCommandDAO" ref="incidentCommandDAO" />
+    </bean>
+    <bean id="broadcastService" class="com.leidos.xchangecore.core.em.service.impl.BroadcastServiceImpl">
+        <property name="communicationsService" ref="communicationsService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="notificationService" ref="notificationsService" />
+    </bean>
+    <bean id="mapService" class="com.leidos.xchangecore.core.em.service.impl.MapServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="configurationService" ref="configurationService" />
+        <property name="shapefileIngester" ref="shapefileIngester" />
+    </bean>
+    <bean id="taskingService" class="com.leidos.xchangecore.core.em.service.impl.TaskingServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+    </bean>
+    <bean id="resourceManagementService" class="com.leidos.xchangecore.core.em.service.impl.ResourceManagementServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="communicationsService" ref="communicationsService" />
+        <property name="notificationService" ref="notificationsService" />
+        <property name="xsltFilePath" value="xslt/IncidentDigest.xsl" />
+        <property name="iconConfigXmlFilePath" value="xml/types_icons.xml" />
+    </bean>
+    <bean id="iapService" class="com.leidos.xchangecore.core.em.service.impl.IAPServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+    </bean>
+    <bean id="sensorService" class="com.leidos.xchangecore.core.em.service.impl.SensorServiceImpl">
+        <property name="workProductService" ref="workProductService" />
+        <property name="directoryService" ref="directoryService" />
+        <property name="xsltFilePath" value="xslt/SOIDigest.xsl" />
+        <property name="iconConfigXmlFilePath" value="xml/types_icons.xml" />
+    </bean>
+    <bean id="shapefileIngester" class="com.leidos.xchangecore.core.em.util.ShapefileIngester" />
+    <bean id="leitscService" class="com.leidos.xchangecore.core.em.service.impl.LEITSCServiceImpl">
+        <property name="leitscIncidentDAO" ref="leitscIncidentDAO" />
+        <property name="incidentManagementService" ref="incidentManagementService" />
+    </bean>
+
+</beans>
